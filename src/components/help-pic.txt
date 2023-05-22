@@ -1,0 +1,49 @@
+<div className="thirdpart">
+        <div className="thirdpart-left">
+          <div className="text-img">
+            <h1>Graphic Design</h1>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
+          </div>
+        </div>
+        <div className="thirdpart-right">
+          <div className="text-img">
+            <h1>Photography</h1>
+            <p>Increase your credibillty by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+css
+
+
+.thirdpart-left{
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.thirdpart-right{
+  background-image: url("images/desktop/image-photography.jpg");
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.text-img{
+  /* display: flex; */
+  flex-direction:column;
+  align-items: center;
+  /* justify-content: center; */
+}
